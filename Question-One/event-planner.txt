@@ -1,9 +1,0 @@
-Day Planner
-Scenario: Construct a system for managing daily events without specifying the structure for storing data.
-The system should allow adding, removing and listing events for any given day.
-
-//Thought process
-First create a list of objects that contains days and the events in those days.
-Create a function that adds an event to a day by first checking if the day exists in the list of objects.
-Create another function that removes an event from a given day by looping through the list of objects and checking for the day.
-To list the events in any given day, loop through the list of objects and return each day with it's events.
