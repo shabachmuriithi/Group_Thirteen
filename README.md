@@ -1,3 +1,4 @@
+Question one- day planner
 Constructing a system for managing daily events. 
 First, create a function that adds an event to a day. 
 The output is the day added. Create another function that removes an event from a day, and the output is the day with all its events, excluding the removed event. 
