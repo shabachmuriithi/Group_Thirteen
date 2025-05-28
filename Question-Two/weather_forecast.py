@@ -9,6 +9,7 @@ class WeatherForecastApp:
             "wind_speed":wind_speed
         }
         return f"Added weather data for {city_name}: Temp = {temperature} degrees celcius, Humidity = {humidity}%, Wind = {wind_speed}km/h"
+        
 
     def get_city_weather(self,city_name):
         info = self.cities.get(city_name)
