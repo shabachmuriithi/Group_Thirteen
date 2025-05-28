@@ -1,0 +1,11 @@
+Implement a function to add a city to a weather forecast app that stores weather information data for different cites. Each city has data on temperature, humidity and wind speed
+
+Pseeudocode
+Define weather database as an empty array
+Define a function that takes city name and weather as parameters
+Check for input validation:
+If city name is not a string return false
+If temparature, humidity and windspeed are not Doubles return false
+Check if new city already exists in database
+Create a new city weather object with city name, temparature, humidity and windspeed
+Append new city to the database
