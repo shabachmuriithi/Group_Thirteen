@@ -13,13 +13,13 @@ List of objects containing days and events.
     If the day exists, add the event to that day’s list of events.
     If the day does not exist, create a new entry for the day and add the event.
 3. To remove an event:
-    Find the day in the list.
+    Check if the day already exists in the list.
     If the day exists, check if the event exists on that day.
     If the event exists, remove it from the day’s event list.
 3. To list events on any given day:
     Check if the day exists in the list of days.
     If the day exists, display all the events for that day.
-    If the day does not exist, indicate that there are no events for that day.
+    
 
 Output:
 List of objects with days and events
